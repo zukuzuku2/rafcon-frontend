@@ -5,7 +5,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/rafcon-moderno-agents/',
+  base: '/rafcon-frontend/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
